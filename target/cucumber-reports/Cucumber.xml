@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="18.656">
+    <testcase classname="Automated End2End Tests" name="As a ToDo MVC user, I should be able to add new todo" time="15.838">
+        <system-out><![CDATA[Given I am on ToDo MVC home page............................................passed
+And I see title "Vue.js • TodoMVC"..........................................passed
+When I enter new ToDo "todo one"............................................passed
+Then verify "todo one" gets displayed.......................................passed
+And todo count show "1" item left...........................................passed
+And clicking link "All" show added item as "todo one".......................passed
+And clicking link "Active" show added item as "todo one"....................passed
+And clicking link "Completed" show no completed items.......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Automated End2End Tests" name="As a ToDo MVC user, I should be able to mark todo as completed" time="2.526">
+        <system-out><![CDATA[Given I am on ToDo MVC home page............................................passed
+And I see title "Vue.js • TodoMVC"..........................................passed
+When I enter new ToDo "todo one"............................................passed
+When I mark "todo one" as complete by clicking on checkbox next to it.......passed
+Then clicking link "Completed" show "todo one" as completed.................passed
+]]></system-out>
+    </testcase>
+</testsuite>

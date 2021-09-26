@@ -1,0 +1,10 @@
+d:\GitHub\SingtelBDDTestFramework\src\main\java\enums\EnvironmentType.java
+d:\GitHub\SingtelBDDTestFramework\src\main\java\pageObjects\ViewtodosHomePage.java
+d:\GitHub\SingtelBDDTestFramework\src\main\java\pageObjects\ActiveTodosPage.java
+d:\GitHub\SingtelBDDTestFramework\src\main\java\dataProvider\ConfigFileReader.java
+d:\GitHub\SingtelBDDTestFramework\src\main\java\managers\PageObjectManager.java
+d:\GitHub\SingtelBDDTestFramework\src\main\java\managers\WebDriverManager.java
+d:\GitHub\SingtelBDDTestFramework\src\main\java\enums\DriverType.java
+d:\GitHub\SingtelBDDTestFramework\src\main\java\managers\FileReaderManager.java
+d:\GitHub\SingtelBDDTestFramework\src\main\java\pageObjects\AllTodosPage.java
+d:\GitHub\SingtelBDDTestFramework\src\main\java\pageObjects\CompletedTodosPage.java

@@ -1,0 +1,279 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-26T14:48:55.404Z",
+        "line": 5,
+        "name": "As a ToDo MVC user, I should be able to add new todo",
+        "description": "",
+        "id": "automated-end2end-tests;as-a-todo-mvc-user--i-should-be-able-to-add-new-todo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4341383100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on ToDo MVC home page",
+            "match": {
+              "location": "stepDefinitions.steps.i_am_on_to_do_mvc_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10447800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I see title \"Vue.js • TodoMVC\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vue.js • TodoMVC\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.steps.i_see_title(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 254436700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter new ToDo \"todo one\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"todo one\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinitions.steps.i_enter_new_to_do(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77933900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify \"todo one\" gets displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"todo one\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stepDefinitions.steps.verify_gets_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16588200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "todo count show \"1\" item left",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.steps.todo_count_show_item_left(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140631700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clicking link \"All\" show added item as \"todo one\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"todo one\"",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.steps.clicking_link_show_added_item_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103236200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "clicking link \"Active\" show added item as \"todo one\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Active\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"todo one\"",
+                  "offset": 42
+                }
+              ],
+              "location": "stepDefinitions.steps.clicking_link_show_added_item_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10804054100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clicking link \"Completed\" show no completed items",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Completed\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.steps.clicking_link_show_no_completed_items(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddNewToDo"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-26T14:49:11.256Z",
+        "line": 16,
+        "name": "As a ToDo MVC user, I should be able to mark todo as completed",
+        "description": "",
+        "id": "automated-end2end-tests;as-a-todo-mvc-user--i-should-be-able-to-mark-todo-as-completed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1486189300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am on ToDo MVC home page",
+            "match": {
+              "location": "stepDefinitions.steps.i_am_on_to_do_mvc_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7480400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I see title \"Vue.js • TodoMVC\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vue.js • TodoMVC\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.steps.i_see_title(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125347600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter new ToDo \"todo one\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"todo one\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinitions.steps.i_enter_new_to_do(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99219900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I mark \"todo one\" as complete by clicking on checkbox next to it",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"todo one\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stepDefinitions.steps.i_mark_as_complete_by_clicking_on_checkbox_next_to_it(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 803064500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "clicking link \"Completed\" show \"todo one\" as completed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Completed\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"todo one\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.steps.clicking_link_show_as_completed(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MarkTodoAsComplete"
+          }
+        ]
+      }
+    ],
+    "name": "Automated End2End Tests",
+    "description": "  Description: The purpose of this feature is to test End 2 End flow of todo mvc application",
+    "id": "automated-end2end-tests",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/End2End_Tests.feature",
+    "tags": []
+  }
+]
